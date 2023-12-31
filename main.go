@@ -7,6 +7,7 @@ import (
 	"github.com/aws/aws-lambda-go/lambda"
 	"github.com/sod-auctions/auctions-db"
 	"github.com/sod-auctions/blizzard-client"
+	"log"
 	"os"
 	"strconv"
 )
@@ -15,6 +16,7 @@ var database *auctions_db.Database
 var client *blizzard_client.BlizzardClient
 
 func init() {
+	log.SetFlags(0)
 	var err error
 	database, err = auctions_db.NewDatabase(os.Getenv("DB_CONNECTION_STRING"))
 	if err != nil {
