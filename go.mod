@@ -4,7 +4,7 @@ go 1.21.3
 
 require (
 	github.com/aws/aws-lambda-go v1.43.0
-	github.com/sod-auctions/auctions-db v0.0.0-20240105193944-d1ec4fcc65c0
+	github.com/sod-auctions/auctions-db v0.0.0-20240105195009-e28294ee5e8b
 	github.com/sod-auctions/blizzard-client v0.0.0-20240105193528-5b62dd982f18
 )
 

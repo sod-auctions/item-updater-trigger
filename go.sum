@@ -27,6 +27,8 @@ github.com/pmezard/go-difflib v1.0.0 h1:4DBwDE0NGyQoBHbLQYPwSUPoCMWR5BEzIk/f1lZb
 github.com/pmezard/go-difflib v1.0.0/go.mod h1:iKH77koFhYxTK1pcRnkKkqfTogsbg7gZNVY4sRDYZ/4=
 github.com/sod-auctions/auctions-db v0.0.0-20240105193944-d1ec4fcc65c0 h1:RLuVyQ1T+YsLN6UjZY22Qj6SbgRuf5/r/ZYTxK8k/gM=
 github.com/sod-auctions/auctions-db v0.0.0-20240105193944-d1ec4fcc65c0/go.mod h1:PDxZjVD3fQwErQPJB4tFqYYrXJlh5XtjBD0WV3RpVZI=
+github.com/sod-auctions/auctions-db v0.0.0-20240105195009-e28294ee5e8b h1:HDbg1Ca0sOFfmM5iD1cVlVmTpXq+6HYIiX+AXB7Jg2w=
+github.com/sod-auctions/auctions-db v0.0.0-20240105195009-e28294ee5e8b/go.mod h1:PDxZjVD3fQwErQPJB4tFqYYrXJlh5XtjBD0WV3RpVZI=
 github.com/sod-auctions/blizzard-client v0.0.0-20240105193528-5b62dd982f18 h1:uYA2Rixb9+1PtEyzFjazBuxRJrkpmtfBaaeHnCDQfLs=
 github.com/sod-auctions/blizzard-client v0.0.0-20240105193528-5b62dd982f18/go.mod h1:A79hD+1+0F1HIsHTC3k9FE3GfPqI2Jq2t3Q+Vjmd+r0=
 github.com/stretchr/objx v0.1.0/go.mod h1:HFkY916IF+rwdDfMAkV7OtwuqBVzrE8GR6GFx+wExME=

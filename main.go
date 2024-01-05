@@ -57,7 +57,7 @@ func handler(ctx context.Context, event events.SQSEvent) error {
 		}
 
 		fmt.Printf("Inserting item: %v\n", dbItem)
-		err = database.InsertItem(&dbItem)
+		err = database.UpsertItem(&dbItem)
 		if err != nil {
 			return fmt.Errorf("error inserting item to db: %v", err)
 		}
