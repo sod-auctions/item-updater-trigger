@@ -4,8 +4,8 @@ go 1.21.3
 
 require (
 	github.com/aws/aws-lambda-go v1.43.0
-	github.com/sod-auctions/auctions-db v0.0.0-20231230222950-a409b4d319f0
-	github.com/sod-auctions/blizzard-client v0.0.0-20231229153543-92bec26fd10d
+	github.com/sod-auctions/auctions-db v0.0.0-20240105193944-d1ec4fcc65c0
+	github.com/sod-auctions/blizzard-client v0.0.0-20240105193528-5b62dd982f18
 )
 
 require (
@@ -18,7 +18,7 @@ require (
 	github.com/vmihailenco/tagparser v0.1.2 // indirect
 	github.com/vmihailenco/tagparser/v2 v2.0.0 // indirect
 	golang.org/x/crypto v0.17.0 // indirect
-	golang.org/x/sys v0.15.0 // indirect
+	golang.org/x/sys v0.16.0 // indirect
 	gopkg.in/yaml.v2 v2.4.0 // indirect
 	mellium.im/sasl v0.3.1 // indirect
 )

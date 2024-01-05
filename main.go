@@ -46,10 +46,14 @@ func handler(ctx context.Context, event events.SQSEvent) error {
 		}
 
 		dbItem := auctions_db.Item{
-			Id:       item.Id,
-			Name:     item.Name,
-			Rarity:   item.Quality,
-			MediaURL: mediaUrl,
+			Id:            item.Id,
+			Name:          item.Name,
+			MediaURL:      mediaUrl,
+			Rarity:        item.Quality,
+			Level:         item.Level,
+			RequiredLevel: item.RequiredLevel,
+			PurchasePrice: item.PurchasePrice,
+			SellPrice:     item.SellPrice,
 		}
 
 		fmt.Printf("Inserting item: %v\n", dbItem)
